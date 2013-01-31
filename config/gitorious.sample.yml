@@ -191,6 +191,11 @@ production:
   # approving creation. Users are notified by mail of
   # rejection/approvals.
   # only_site_admins_can_create_projects: false
+  # Enable OpenID
+  enable_openid: true
+
+  # Only site admins can create projects.
+  #only_site_admins_can_create_projects: false
 
   # System message that will appear on all pages if present
   #system_message:
